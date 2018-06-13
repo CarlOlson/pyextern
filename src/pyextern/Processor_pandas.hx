@@ -1,14 +1,10 @@
 package pyextern;
 
 import Type as StdType;
-import haxe.macro.*;
 import haxe.macro.Expr;
-import haxe.xml.*;
-import python.*;
 import python.Tuple;
 import inspect.*;
 import importlib.*;
-using Lambda;
 
 @process_modules("pandas")
 class Process_pandas extends Processor {

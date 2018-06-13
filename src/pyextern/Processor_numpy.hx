@@ -1,10 +1,7 @@
 package pyextern;
 
 import Type as StdType;
-import haxe.macro.*;
 import haxe.macro.Expr;
-import haxe.xml.*;
-using Lambda;
 
 @process_modules("numpy")
 class Process_numpy extends Processor {
