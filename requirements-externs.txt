@@ -8,3 +8,4 @@ tensorflow==1.2.1
 pytorch-gpu==0.1.12
 theano==0.9.0
 keras==2.0.6
+mxnet==1.2.0
